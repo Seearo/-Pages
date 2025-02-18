@@ -1,0 +1,51 @@
+* { 
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #000000;
+    color: white;
+}
+
+header {
+    background-color: #f1960c;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    width: 1200px;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.add, #add-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.card {
+    display: none;
+    width: 100%;
+}
+
+.active{
+    display: block;
+}
+
+#ip {
+    display: hidden;
+}
